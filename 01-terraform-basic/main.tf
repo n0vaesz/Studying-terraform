@@ -1,5 +1,8 @@
 #https://developer.hashicorp.com/terraform/intro
 #https://developer.hashicorp.com/terraform;language/providers
+#https://developer.hashicorp.com/terraform;language/resources
+
+
 
 terraform {
   required_providers {
