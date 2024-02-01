@@ -6,6 +6,7 @@ variable "aws_region" {
 
 variable "aws_profile" {
   type        = string
-  description = ""
+  description = "The AWS profile to use to authenticate with Terraform. Use 'default' in case you have only one account configured"
   default     = "studying"
 }
+
