@@ -10,3 +10,20 @@ variable "aws_profile" {
   default     = "studying"
 }
 
+variable "read_capacity" {
+  type = number
+  description = ""
+  default = 5
+}
+
+variable "write-capacity" {
+  type = number
+  description = ""
+  default = 5
+}
+
+variable "deletion-protection" {
+  type = bool
+  description = ""
+  default = false
+}
