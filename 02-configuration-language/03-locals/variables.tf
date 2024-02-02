@@ -12,6 +12,12 @@ variable "aws_region" {
   }
 }
 
+variable "service_name" {
+  type = string
+  description = ""
+  default = "game_store_service"
+}
+
 
 
 variable "aws_profile" {
